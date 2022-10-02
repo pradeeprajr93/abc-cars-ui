@@ -1,0 +1,19 @@
+<div class="cars-container">
+    <div class="car-card" *ngFor="let carDetail of carDetails">
+        <div class="banner">
+            <img [src]="carDetail.imageLink" alt="car image missing">
+        </div>
+        <div class="details">
+            <div class="name">{{carDetail.name}}</div>
+            <div class="make">{{carDetail.make}}</div>
+            <div class="price">{{carDetail.exShowRoomPrice}}</div>
+            <div class="desc">{{carDetail.description}}</div>
+        </div>
+    </div>
+</div>
+<h3 *ngIf="responseReceived && carDetails.length === 0">
+    No cars found
+</h3>
+<h3 *ngIf="!responseReceived">
+    Loading cars...
+</h3>

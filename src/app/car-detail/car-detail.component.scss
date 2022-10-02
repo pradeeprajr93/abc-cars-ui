@@ -1,0 +1,23 @@
+.car-card {
+    display: flex;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 40%) 3px 5px 8px 3px;
+    border-radius: 6px;
+    padding: 13px;
+    margin: 12px;
+
+    img {
+        width: 200px;
+        height: auto;
+    }
+
+    .details {
+        font-size: 18px;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+}
+
+h3 {
+    padding: 13px;
+}

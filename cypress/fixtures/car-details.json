@@ -1,0 +1,26 @@
+{
+    "results": [
+        {
+            "name": "Venue",
+            "make": "Hyundai",
+            "exShowRoomPrice": "Rs.12,50,000",
+            "description": "Made in India.",
+            "productId": "HYUVEN001",
+            "imageLink": "https://www.indiacarnews.com/wp-content/uploads/2022/06/2022-Hyundai-Venue-Price-List-1.jpeg",
+            "id": "62e22f176336cd36989ecda1"
+        },
+        {
+            "name": "Brezza",
+            "make": "Maruti Suzuki",
+            "exShowRoomPrice": "Rs.10,50,000",
+            "description": "Made in India.",
+            "productId": "SUZBRE001",
+            "imageLink": "https://stimg2.cardekho.com/images/carNewsEditorImages/userimages/20220630_144404/29307/maruti0.jpg?tr=w-420",
+            "id": "62e22f7d6336cd36989ecda6"
+        }
+    ],
+    "page": 1,
+    "limit": 10,
+    "totalPages": 1,
+    "totalResults": 2
+}
