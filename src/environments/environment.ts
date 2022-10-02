@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  carDetailsEndPoint: "http://localhost:3000/v1/car-details/"
+  carDetailsEndPoint: "https://abc-cars.azurewebsites.net/v1/car-details/"
 };
 
 /*
